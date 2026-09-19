@@ -1,5 +1,14 @@
+<?php //Ryan Martin?>
 <form action="index.php" method="get">
-    <input type="date" name="Return_Date" placeholder="The date of the book that will be returned"/>
-    <input type="date" name="Due_Date" placeholder="The date the book is due"/>
-    <input type="submit"/>
+    <table>
+        <tr>
+            <th>Book Return Date</th>
+            <th>Book Due Date</th>
+        </tr>
+        <tr>
+            <td><input type="date" name="Return_Date"/></td>
+            <td><input type="date" name="Due_Date"/></td>
+        </tr>
+    </table>
+    <input class="button" type="submit"/>
 </form>
