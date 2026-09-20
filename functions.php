@@ -18,6 +18,7 @@
         }
     }
     function displayDates($returnDate, $dueDate){
+    /*This function echos the return and due dates*/
         echo "<br>Return Date: ", $returnDate->format("Y m d");
         echo "<br>Due Date: ", $dueDate->format("Y m d");
     }
